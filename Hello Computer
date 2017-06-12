@@ -1,0 +1,46 @@
+# collect information about user
+# utilize information in conversation
+
+puts "Hello. " 
+puts "My name is Computer. "
+puts "That's right. Just sound it out " +
+     "slowwwly." 
+puts "'Kum - pew - tur'. "
+puts "Mmn."
+puts "Yes." 
+puts "Magnifico!"
+puts "...Nice accent! " +
+     "Now, what is your name? "
+name = gets.chomp
+
+# Let's make sure that name gets
+# capitalized when we use it, even if the
+# user forgot to do it themselves
+
+puts "It's so wonderful to meet you, " +
+     name.capitalize + "! "
+puts "I've been waiting ALL DAY " +
+     "for someone to come by and " +
+     "say hello!" 
+puts "(That's a lovely shirt you're wearing " +
+     "by the way.)"
+     
+puts "Anyway! Enough about me! "
+puts "Let's talk about you!"
+puts "I -really- like music. "
+puts "I LOVE They Might be Giants."
+puts "Have you heard of them?"
+giants = gets.chomp
+
+puts "Who is YOUR favorite musician?" 
+    musician = gets.chomp
+
+puts "Ah. I also enjoy " + musician.capitalize + "." 
+
+puts "Is there a band you -dislike-?"
+dislike = gets.chomp
+
+puts "Yes! " + dislike.capitalize + "!" +
+    " They're terrible!"
+puts "You have excellent taste in music, " +
+     name.capitalize + "."
